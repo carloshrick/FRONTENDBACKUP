@@ -1,0 +1,34 @@
+.card {
+    border: 1px solid #ff0000;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    height: 12rem;
+  }
+
+  #root{
+    display: flex;
+  }
+  
+  .edit{
+   border-radius: 0.3rem;
+   border: 1px solid red;
+   font-size: 1rem;
+   color: red;
+   background-color: white;
+   padding: 0.5rem;
+   text-decoration: none;
+  }
+
+  .delete{
+    border-radius: 0.3rem;
+    border: 1px solid red;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    color: red;
+    background-color: white;
+    padding: 0.5rem;
+  }

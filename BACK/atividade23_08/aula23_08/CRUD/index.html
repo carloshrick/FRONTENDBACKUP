@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="card-group">
+        <div class="card">
+          <img src="./images/img1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#agendaraula">Agendar Aula</a>
+          </div>
+    
+        </div>
+        <div class="card">
+          <img src="./images/img1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+         
+        </div>
+        <div class="card">
+          <img src="./images/img1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--MODAL 1-->
+      <div class="modal fade" id="agendaraula" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Agendar aula experimental</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <input type="text" placeholder="Nome completo" class="form-control" id="nome">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Horário</label>
+            
+            <select name="" id="horario" class="form-select">
+                <option value="18:30">18:30</option>
+                <option value="19:30">19:30</option>
+                <option value="20:40">20:40</option>
+            </select>
+</div>
+            
+            <div class="mb-3">
+            <input type="number" placeholder="Idade" id="idade">
+            </div>
+
+            <div class="mb-3">
+                <label for="message-text" class="col-form-label">Cidade</label>
+                <select name="cidade" id="cidade" class="form-select">
+                    <option value="Bebedouro">Bebedouro</option>
+                    <option value="Viradouro">Viradouro</option>
+                    <option value="Taquaral">Taquaral</option>
+                </select>
+    </div>
+
+    <div class="mb-3">
+        <input type="date" placeholder="Data" class="form-select" id="data">
+        </div>
+    
+
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="agendarbtn">Agendar</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!--FIM MODAL 1-->
+
+        <script src="./js/post.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
