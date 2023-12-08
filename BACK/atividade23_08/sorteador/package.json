@@ -1,0 +1,18 @@
+{
+  "name": "sorteador",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.6.3",
+    "readline-sync": "^1.4.10",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  },
+  "description": ""
+}
