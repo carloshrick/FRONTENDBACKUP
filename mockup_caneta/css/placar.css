@@ -1,0 +1,95 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: black; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/fundo.png);
+}
+
+.desktop{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    
+    
+}
+
+.Ellipse1{
+    width: 44.983rem;
+     height: 45.714rem;
+      left: -0.113rem; 
+      top: -12.615rem; 
+      position: absolute;
+       border-radius: 999.9rem
+}
+
+.Noticias{
+    left: 54.5rem;
+     top: 6.8rem;
+      position: absolute; 
+      color: white;
+       font-size: 3rem; 
+    
+       font-weight: 40rem; 
+       text-decoration: underline;
+        word-wrap: break-word
+}
+
+.Placar{
+    left: 74.2rem; 
+    top: 6.8rem;
+     position: absolute; 
+     color: white; 
+     font-size: 3rem; 
+        font-weight: 40rem; 
+     text-decoration: underline;
+     word-wrap: break-word
+}
+
+.GeradorDeTimes{
+    left: 89.2rem; 
+    top: 6.8rem;
+     position: absolute; 
+     color: white;
+      font-size: 3rem;
+     
+        font-weight: 40rem; 
+        text-decoration: underline;
+         word-wrap: break-word
+}
+
+
+.Sobre{
+    left: 124.2rem; 
+    top: 6.8rem; 
+    position: absolute; 
+    color: white; 
+    font-size: 3rem; 
+  
+    font-weight: 40rem; 
+    text-decoration: underline; 
+    word-wrap: break-word
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 35rem;
+    font-size: 2rem;
+}
