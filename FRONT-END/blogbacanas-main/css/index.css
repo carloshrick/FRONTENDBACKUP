@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+html, body{
+    font-size: 62.5%;
+
+    font-family: 'Roboto Mono', monospace;    color: rgb(0, 0, 0);
+       
+    width: 100%;
+    height: 100%;
+
+}
+
+header{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+
+}
+
+#logo{
+
+    height: 7rem;
+    width: 7rem;
+
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+
+    margin-left: 5rem;
+
+
+}
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+    font-size: 1.8rem;
+
+}
+
+li{
+
+    list-style: none;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+main{
+
+    margin-top: 8rem;
+    margin-left: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+
+#inicio{
+
+
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
+}
+
+aside{
+
+    width: 20rem;
+    height: 30rem;
+
+}
+
+article{
+
+    height: 100%;
+    margin-left: 5rem;
+
+}
+
+#cumprimento, #bacanas{
+
+    font-size: 7rem;
+    font-weight: bold;
+    margin-left: 5rem;
+
+}
+
+#sub{
+
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+
+    font-size: 1.5rem;
+    text-align: justify;
+
+    width: 50rem;
+
+
+}
+
+#conheca{
+
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+
+    padding: 1.5rem;
+
+    background-color: white;
+    border: #FF3131 solid 0.1rem;
+    cursor: pointer;
+
+}
+
+#conheca:hover{
+
+    background-color: #FF3131;
+    color: white;
+    transition: 250ms;
+
+}
+
+
+
+#bacanas{
+
+    color: #FF3131;
+
+}
+
+.projetos{
+
+    font-size: 3rem;
+
+    border-bottom: #FF3131 solid 0.5rem;
+    width: 15rem;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+aside{
+
+    border: #FF3131 0.3rem solid;
+    border-radius: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 30rem;
+    width: 40rem;
+
+    padding: 1.5rem;
+
+}
+
+aside:hover{
+
+    -webkit-transform:scale(1.1); 
+    cursor: pointer;
+
+}
+
+#secao{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+
+.nome-projeto{
+
+    font-size: 2rem;
+
+}
+
+.desc{
+
+    font-size: 1rem;
+
+    text-align: justify;
+
+}
+
+.pfp{
+
+    height: 20rem;
+    width: 35rem;
+
+}

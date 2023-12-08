@@ -1,0 +1,149 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /*fontes*/
+    color: white; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+    height: 100%;
+    width: 100%;
+        
+}
+
+#root{
+
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #07730E;
+
+}
+
+aside{
+
+    height: 100%;
+    width: 30%;
+ 
+    background-color: #0F4001;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-transform: uppercase;
+    gap: 3rem;
+
+}
+
+span{
+
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    background-color: white;
+
+}
+
+.btnaside{
+
+    width: 30rem;
+    height: 4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 0.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    border: none;
+
+
+}
+
+.btnaside:hover{
+
+    background-color: rgb(218, 218, 218);
+
+}
+
+#titulo{
+
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+#partida{
+    font-size:3rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+main{
+
+    border-radius: 100%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+
+}
+
+#addtime{
+
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#titulopag{
+
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+
+}
+
+dialog{
+
+    height: 60rem;
+    width: 70rem;
+
+    margin-top: 5%;
+    margin-left: 27%;
+
+}
+
+#resultados{
+
+    display: flex;
+    flex-direction: column;
+
+}

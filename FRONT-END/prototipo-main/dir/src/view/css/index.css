@@ -1,0 +1,191 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /*fontes*/
+    color: white; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+    height: 100%;
+    width: 100%;
+        
+}
+
+#root{
+
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #07730E;
+
+}
+
+aside{
+
+    height: 100%;
+    width: 30%;
+ 
+    background-color: #0F4001;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-transform: uppercase;
+    gap: 3rem;
+
+}
+
+span{
+
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    background-color: white;
+
+}
+
+.btnaside{
+
+    width: 30rem;
+    height: 4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 0.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    border: none;
+
+
+}
+
+.btnaside:hover{
+
+    background-color: rgb(218, 218, 218);
+
+}
+
+#titulo{
+
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+#partida{
+    font-size:3rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+}
+#jogo1{
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    
+    width: 20rem;
+    height: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#jogo2{
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    
+    width: 20rem;
+    height: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#jogo3{
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    
+    width: 20rem;
+    height: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#jogo4{
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    
+    width: 20rem;
+    height: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#jogo5{
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    
+    width: 20rem;
+    height: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}#jogo6{
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    
+    width: 20rem;
+    height: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#blocos{
+    padding: 3rem;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
